@@ -1,0 +1,17 @@
+{
+    "name": "anjooficial/ci-restserver",
+    "description": "A fully RESTful server implementation for CodeIgniter using one library, one config file and one controller.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angel Developers",
+            "email": "anjsuporte@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"anjooficial\\CIRestServer\\": "src/"}
+    },
+    "require": {}
+}
