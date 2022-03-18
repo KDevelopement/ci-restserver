@@ -20,7 +20,7 @@ composer require anjooficial/ci-restserver
 CodeIgniter Rest Server is available on [Packagist](https://packagist.org/packages/anjooficial/ci-restserver) (using semantic versioning), and installation via composer is the recommended way to install Codeigniter Rest Server. Just add this line to your `composer.json` file:
 
 ```json
-"anjooficial/ci-restserver": "^1.0"
+"anjooficial/ci-restserver": "^3.1.3"
 ```
 
 or run
