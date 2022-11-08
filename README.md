@@ -12,21 +12,21 @@ A fully RESTful server implementation for CodeIgniter using one library, one con
 ## Installation
 
 ```sh
-composer require anjooficial/ci-restserver
+composer require kseven/ci-restserver
 ```
 
 ## Usage
 
-CodeIgniter Rest Server is available on [Packagist](https://packagist.org/packages/anjooficial/ci-restserver) (using semantic versioning), and installation via composer is the recommended way to install Codeigniter Rest Server. Just add this line to your `composer.json` file:
+CodeIgniter Rest Server is available on [Packagist](https://packagist.org/packages/kseven/ci-restserver) (using semantic versioning), and installation via composer is the recommended way to install Codeigniter Rest Server. Just add this line to your `composer.json` file:
 
 ```json
-"anjooficial/ci-restserver": "^3.1.3"
+"kseven/ci-restserver": "^3.1.4"
 ```
 
 or run
 
 ```sh
-composer require anjooficial/ci-restserver
+composer require kseven/ci-restserver
 ```
 
 Note that you will need to copy `rest.php` to your `config` directory (e.g. `application/config`)
@@ -54,7 +54,7 @@ Here is a basic example. This controller, which should be saved as `Api.php`, ca
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-use anjooficial\CIRestServer\RestController;
+use kseven\CIRestServer\RestController;
 
 class Api extends RestController {
 
