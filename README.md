@@ -34,7 +34,7 @@ Note that you will need to copy `rest.php` to your `config` directory (e.g. `app
 Step 1: Add this to your controller (should be before any of your code)
 
 ```php
-use anjooficial\CIRestServer\RestController;
+use kseven\CIRestServer\RestController;
 ```
 
 Step 2: Extend your controller
